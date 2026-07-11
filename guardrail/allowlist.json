@@ -1,0 +1,15 @@
+{
+  "$comment": "SINGLE SOURCE OF TRUTH for what the public build may contain. The ONLY approved content basis is commandforgeai-public-safe-site-content-basis.md. Any route not listed here fails the build. Pricing stays gated behind intake until Lionel explicitly approves public pricing.",
+  "contentBasis": "commandforgeai-public-safe-site-content-basis.md",
+  "pricingApproved": false,
+  "routes": [
+    { "path": "/", "content": "brand-positioning + offer overview (home)" },
+    { "path": "/courses", "content": "course catalog (descriptions only, pricing gated)" },
+    { "path": "/courses/", "prefix": true, "content": "course detail pages (descriptions only, pricing gated)" },
+    { "path": "/services", "content": "consulting offer descriptions" },
+    { "path": "/ai-native-transformation", "content": "consulting offer descriptions (alias)" },
+    { "path": "/intake", "content": "lead-capture intake (public-safe client spec fields)" },
+    { "path": "/audit", "content": "readiness audit (buyer self-assessment)" },
+    { "path": "/success", "content": "post-submission confirmation" }
+  ]
+}

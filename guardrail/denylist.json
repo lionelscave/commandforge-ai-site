@@ -1,0 +1,18 @@
+{
+  "$comment": "Internal-origin content markers. If ANY pattern matches the compiled dist/ bundle or the source, the build FAILS. Patterns are case-insensitive regex. Grouped by policy category from commandforgeai-public-vs-internal-content-policy.md.",
+  "patterns": [
+    { "re": "WorkOS|WORKOS_API_KEY|AuthKit", "note": "identity strategy / architecture internals" },
+    { "re": "Break-?glass|break_glass", "note": "internal RBAC role" },
+    { "re": "\\bRBAC\\b", "note": "identity/access architecture internals" },
+    { "re": "STRIPE_SECRET|STRIPE_WEBHOOK|STRIPE_[A-Z_]*PRICE|stripe-webhook", "note": "payment integration internals" },
+    { "re": "create-checkout-session|/api/create-checkout|command-center-intake|save-lead|intake-chat|workos-session", "note": "internal/serverless endpoints" },
+    { "re": "/api/", "note": "no server API surface in the public static site" },
+    { "re": "operating-plan|operatingPlan|Operating Plan Hub|operatingPlanItems", "note": "the 10 internal business-plan docs (original leak)" },
+    { "re": "Investor Data Room|data room|valuation model|funding strategy|equity guidance", "note": "investor/financial internals" },
+    { "re": "auth-rbac|fleet-console|fleet-handoff|routing-rules|approval-packet|orchestrator\\.mjs|revenue-prioritization", "note": "internal architecture / routing internals" },
+    { "re": "intake-system-design|payment-identity-strategy|implementation-guardrails", "note": "internal design/strategy docs" },
+    { "re": "calcEstimate|EstimateInputs|EstimateCalculator|offerLadder|CoursePricingStrategy", "note": "pricing-math internals" },
+    { "re": "Mac-?mini|Plaud", "note": "device-cost / provisioning internals" },
+    { "re": "From \\$\\s?\\d|\\$\\s?299\\b|\\$\\s?499\\b|\\$\\s?2[.,]?500\\b|\\$\\s?2500\\b", "note": "offer pricing — gated behind intake until Lionel approves" }
+  ]
+}

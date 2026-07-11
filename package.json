@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && node guardrail/check.mjs",
+    "guardrail": "node guardrail/check.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
