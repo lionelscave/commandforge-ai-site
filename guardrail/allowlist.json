@@ -10,6 +10,8 @@
     { "path": "/ai-native-transformation", "content": "consulting offer descriptions (alias)" },
     { "path": "/intake", "content": "lead-capture intake (public-safe client spec fields)" },
     { "path": "/audit", "content": "readiness audit (buyer self-assessment)" },
-    { "path": "/success", "content": "post-submission confirmation" }
+    { "path": "/success", "content": "post-submission confirmation" },
+    { "path": "/privacy", "content": "Privacy Policy (public-safe; counsel-reviewed draft, bracketed placeholders for entity/jurisdiction)" },
+    { "path": "/terms", "content": "Terms of Service (public-safe; counsel-reviewed draft, bracketed placeholders for entity/jurisdiction/liability-cap)" }
   ]
 }
