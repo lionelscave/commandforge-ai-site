@@ -1,0 +1,12 @@
+<svg width="420" height="96" viewBox="0 0 420 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CommandForgeAI logo</title>
+  <desc id="desc">CommandForgeAI wordmark with command center icon.</desc>
+  <defs><linearGradient id="gold" x1="11" y1="8" x2="81" y2="87" gradientUnits="userSpaceOnUse"><stop stop-color="#F7E7B4"/><stop offset=".5" stop-color="#D8B46A"/><stop offset="1" stop-color="#A9782D"/></linearGradient><linearGradient id="blue" x1="24" y1="20" x2="69" y2="75" gradientUnits="userSpaceOnUse"><stop stop-color="#9BD7FF"/><stop offset="1" stop-color="#3D8CFF"/></linearGradient></defs>
+  <rect x="8" y="8" width="80" height="80" rx="22" fill="#07111F" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M48 18L73 29V50C73 66.5 63.3 78.4 48 84C32.7 78.4 23 66.5 23 50V29L48 18Z" fill="#0B1728" stroke="url(#gold)" stroke-width="2.4"/>
+  <path d="M33 55L48 32L63 55L48 68L33 55Z" fill="#0E1A2D" stroke="url(#blue)" stroke-width="2.4"/>
+  <path d="M38 52H58" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/><path d="M48 40V63" stroke="url(#blue)" stroke-width="4" stroke-linecap="round"/><circle cx="48" cy="52" r="5" fill="#5BE39B"/>
+  <text x="108" y="46" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" letter-spacing="-1.4">CommandForge</text>
+  <text x="337" y="46" fill="#D8B46A" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" letter-spacing="-1.4">AI</text>
+  <text x="110" y="68" fill="#AAB8CF" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.4">CUSTOM AI COMMAND CENTERS</text>
+</svg>

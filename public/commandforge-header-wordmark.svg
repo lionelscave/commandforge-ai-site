@@ -1,0 +1,16 @@
+<svg width="280" height="56" viewBox="0 0 280 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CommandForgeAI</title>
+  <desc id="desc">CommandForgeAI clean header wordmark</desc>
+  <defs>
+    <linearGradient id="gold" x1="4" y1="4" x2="50" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#F7E7B4"/><stop offset=".52" stop-color="#D8B46A"/><stop offset="1" stop-color="#A9782D"/></linearGradient>
+    <linearGradient id="blue" x1="15" y1="13" x2="41" y2="43" gradientUnits="userSpaceOnUse"><stop stop-color="#9BD7FF"/><stop offset="1" stop-color="#3D8CFF"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="52" height="52" rx="15" fill="#07111F" stroke="url(#gold)" stroke-width="1.8"/>
+  <path d="M28 8.5L43.5 15.2V28.3C43.5 38.2 37.5 45.6 28 49C18.5 45.6 12.5 38.2 12.5 28.3V15.2L28 8.5Z" fill="#0B1728" stroke="url(#gold)" stroke-width="1.8"/>
+  <path d="M18.6 31.3L28 17.1L37.4 31.3L28 39.5L18.6 31.3Z" fill="#0E1A2D" stroke="url(#blue)" stroke-width="1.8"/>
+  <path d="M22 29.6H34" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M28 22.6V36" stroke="url(#blue)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="28" cy="29.6" r="3.5" fill="#5BE39B"/>
+  <text x="66" y="35" fill="#F4F7FB" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="-0.7">CommandForge</text>
+  <text x="226" y="35" fill="#D8B46A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="-0.7">AI</text>
+</svg>

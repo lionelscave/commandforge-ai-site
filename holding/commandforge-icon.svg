@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CommandForgeAI mark</title>
+  <desc id="desc">A premium shield and forge mark representing a governed AI command center.</desc>
+  <defs>
+    <linearGradient id="bg" x1="17" y1="8" x2="111" y2="121" gradientUnits="userSpaceOnUse"><stop stop-color="#0D1B2F"/><stop offset="0.52" stop-color="#07111F"/><stop offset="1" stop-color="#030712"/></linearGradient>
+    <linearGradient id="gold" x1="31" y1="22" x2="99" y2="106" gradientUnits="userSpaceOnUse"><stop stop-color="#F7E7B4"/><stop offset="0.48" stop-color="#D8B46A"/><stop offset="1" stop-color="#A9782D"/></linearGradient>
+    <linearGradient id="blue" x1="38" y1="28" x2="94" y2="98" gradientUnits="userSpaceOnUse"><stop stop-color="#9BD7FF"/><stop offset="1" stop-color="#3D8CFF"/></linearGradient>
+    <filter id="glow" x="-20" y="-20" width="168" height="168" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="31" fill="url(#bg)" stroke="url(#gold)" stroke-width="2.4"/>
+  <path d="M64 21L99 36V64C99 86.5 85.4 102.5 64 111C42.6 102.5 29 86.5 29 64V36L64 21Z" fill="#081322" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M43 73L64 41L85 73L64 91L43 73Z" fill="#0E1A2D" stroke="url(#blue)" stroke-width="3" filter="url(#glow)"/>
+  <path d="M49 69H79" stroke="url(#gold)" stroke-width="5.6" stroke-linecap="round"/>
+  <path d="M64 52V84" stroke="url(#blue)" stroke-width="5.6" stroke-linecap="round"/>
+  <circle cx="64" cy="69" r="7.2" fill="#5BE39B" stroke="#DFFFEF" stroke-width="2"/>
+  <circle cx="37" cy="39" r="3" fill="#D8B46A"/><circle cx="91" cy="39" r="3" fill="#D8B46A"/><circle cx="64" cy="102" r="3" fill="#D8B46A"/>
+</svg>

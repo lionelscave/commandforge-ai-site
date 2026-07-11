@@ -1,0 +1,13 @@
+{
+  "framework": null,
+  "buildCommand": "echo no-build-static-holding-page",
+  "installCommand": "echo skip-install",
+  "outputDirectory": "holding",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [
+    { "source": "/(.*)", "headers": [
+      { "key": "Cache-Control", "value": "no-store, max-age=0, must-revalidate" },
+      { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+    ]}
+  ]
+}
