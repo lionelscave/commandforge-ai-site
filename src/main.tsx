@@ -153,7 +153,7 @@ function Placeholder({ children }: { children: React.ReactNode }): React.ReactEl
 
 function PrivacyPage(): React.ReactElement {
   return <section className="page section-shell legal-page">
-    <div className="page-heading"><p className="eyebrow"><ShieldCheck size={16}/> Privacy</p><h1>Privacy Policy</h1><p className="legal-dates"><strong>Effective date:</strong> July 11, 2026 · <strong>Last updated:</strong> July 11, 2026</p></div>
+    <div className="page-heading"><p className="eyebrow"><ShieldCheck size={16}/> Privacy</p><h1>Privacy Policy</h1><p className="legal-dates"><strong>Effective date:</strong> <Placeholder>[effective date — set to go-live]</Placeholder> · <strong>Last updated:</strong> <Placeholder>[effective date — set to go-live]</Placeholder></p></div>
     <div className="legal-body">
       <p>CommandForgeAI ("CommandForgeAI," "we," "us," or "our") operates the website at commandforgeai.com (the "Site"). This Privacy Policy explains what information we collect when you visit the Site or contact us through our intake and audit forms, how we use it, and the choices you have.</p>
       <p>This is a marketing and lead-generation site for a consulting business. We aim to collect only the information we need to respond to your inquiry and, if you become a client, to plan and deliver our services.</p>
@@ -195,7 +195,7 @@ function PrivacyPage(): React.ReactElement {
 
 function TermsPage(): React.ReactElement {
   return <section className="page section-shell legal-page">
-    <div className="page-heading"><p className="eyebrow"><FileText size={16}/> Legal</p><h1>Terms of Service</h1><p className="legal-dates"><strong>Effective date:</strong> July 11, 2026 · <strong>Company:</strong> CommandForgeAI <Placeholder>[confirm legal entity name]</Placeholder></p></div>
+    <div className="page-heading"><p className="eyebrow"><FileText size={16}/> Legal</p><h1>Terms of Service</h1><p className="legal-dates"><strong>Effective date:</strong> <Placeholder>[effective date — set to go-live]</Placeholder> · <strong>Company:</strong> CommandForgeAI <Placeholder>[confirm legal entity name]</Placeholder></p></div>
     <div className="legal-body">
       <h2>1. Acceptance of these Terms</h2>
       <p>These Terms of Service ("Terms") govern your access to and use of the CommandForgeAI website at commandforgeai.com and any related pages, forms, or content (the "Site"). By accessing or using the Site, or by submitting information through any form on the Site, you agree to these Terms and to our <LegalLink to="/privacy">Privacy Policy</LegalLink>, which is incorporated by reference. If you do not agree, do not use the Site.</p>
